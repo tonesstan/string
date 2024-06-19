@@ -47,7 +47,7 @@ public class Main {
             do {
                 System.out.print("Повторить? (y/n)");
                 yesOrNo = sc.nextLine();}
-            while ((!yesOrNo.equals("y"))&(!yesOrNo.equals("n")));}
+            while ((!yesOrNo.equals("y"))&&(!yesOrNo.equals("n")));}
         while (yesOrNo.equals("y"));
 
         do {
@@ -56,7 +56,7 @@ public class Main {
             do {
                 System.out.print("Повторить? (y/n)");
                 yesOrNo = sc.nextLine();}
-            while ((!yesOrNo.equals("y"))&(!yesOrNo.equals("n")));
+            while ((!yesOrNo.equals("y"))&&(!yesOrNo.equals("n")));
             if (yesOrNo.equals("y")) {
                 System.out.println("Введите новую строку:");
                 s = sc.nextLine();}
